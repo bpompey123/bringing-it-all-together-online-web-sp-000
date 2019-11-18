@@ -79,7 +79,7 @@ class Dog
       SELECT *
       FROM dogs
       WHERE name = ?
-      
+      LIMIT 1
     SQL
 
   end
