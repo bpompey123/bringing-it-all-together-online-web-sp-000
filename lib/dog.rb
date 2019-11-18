@@ -42,7 +42,7 @@ class Dog
     DB[:conn].execute(sql, self.name, self.breed, self.id)
   end
 
-  def self.create_table
+  def self.create_table(name, breed)
     
 
   end
