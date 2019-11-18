@@ -43,8 +43,9 @@ class Dog
   end
 
   def self.create_table(name, breed)
-    
-
+    dogs = Dog.new(name, breed)
+    dogs.save
+    dogs
   end
 
 
