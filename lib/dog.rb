@@ -20,6 +20,8 @@ class Dog
 
   def self.drop_table
 
+  end
+
 
 
 
